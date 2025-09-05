@@ -83,7 +83,24 @@ a{
   background-color: #C6D870;
 }
 
-  
+/* Titles */
+.title-fries,
+.title-maggi {
+    text-align: center;
+    background-color: #8FA31E;
+    font-size: 70px;
+}
+
+/* Images */
+.image-fries,
+.image-maggi {
+    display: block;
+    margin: 0 auto;
+    height: auto;
+    width: 600px;
+    border: 10px solid black;
+}
+
 
 
 
