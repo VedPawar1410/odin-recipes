@@ -1,7 +1,8 @@
 *{
     background-color: #EFF5D2;
+    box-sizing: border-box;
 }
-.title{
+.title, .title-pasta{
     text-align: center;
     background-color: #8FA31E;
     font-size: 70px;
@@ -19,3 +20,74 @@ button{
 a{
     text-decoration: none; 
 }
+
+.title-pasta{
+    background-color: #8FA31E;
+}
+
+.image-pasta{
+    display: block;
+    margin: 0 auto;
+    height: auto;
+    width: 600px;
+    border: 10px solid black;
+}
+
+.subheading-description, .title-ingredients, .title-steps{
+    text-align: center;
+    font-size: 40px;
+}
+
+.description, .Ingredients, .steps{
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: justify;
+    padding: 20px;
+    line-height: 1.6;
+    background-color: #C6D870;
+    border-radius: 10px;       /* smooth corners */
+    border: 5px solid #313131;   /* subtle border */
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.description .para{
+    background-color: #C6D870;
+}
+
+.Ingredients li{
+    background-color: #C6D870;
+    margin: 10px;
+}
+
+.steps {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    line-height: 1.6;
+    background-color: #C6D870;
+    border-radius: 10px;
+    border: 5px solid #313131;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    list-style-position: inside;   /* ✅ numbers inside box */
+}
+
+.description .para{
+    background-color: #C6D870;
+}
+
+
+.steps,
+.steps * {
+  background-color: #C6D870;
+}
+
+  
+
+
+
+
+
+
+
